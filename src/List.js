@@ -1,5 +1,4 @@
-import React from 'react'; 
-var i=0;
+import React from 'react';
 const List = (props)=>{
     console.log(props.Data);
     return (

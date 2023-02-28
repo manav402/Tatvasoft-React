@@ -4,12 +4,17 @@ import './index.css';
 import App from './App';
 import {List} from './List';
 import reportWebVitals from './reportWebVitals';
+import HomePage from './pages/Home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const data = ['manav','utsav','Himanshu'];
 root.render(
   <React.StrictMode>
+    <HomePage name='Manav'/>
+    <HomePage name='Utsav'/>
+    <HomePage name='Himanshu'/>
     <List Data={data} />
+    <App />
   </React.StrictMode>
 );
 
